@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#gallery img {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#gallery img:focus,
+#gallery img:hover {
+  outline: none;
+  border-color: rgb(208, 0, 255);
+  box-shadow: 0 0 10px rgb(153, 0, 255);
+}
+
+#info {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
